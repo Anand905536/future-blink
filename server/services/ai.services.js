@@ -3,7 +3,6 @@ import axios from 'axios'
 export const askApi = async (req, res) => {
   try {
     const { prompt } = req.body;
-
     if (!prompt) {
       return res.status(400).json({ error: "Prompt is required" });
     }

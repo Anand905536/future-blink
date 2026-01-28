@@ -1,13 +1,10 @@
-import { useState } from 'react'
-
+import Flow from './components/Flow.jsx'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-     <div>welcome to the project</div>
-       
+     <Flow/>
     </>
   )
 }

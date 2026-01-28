@@ -3,7 +3,6 @@ import PromptQuestion from "../models/prompt.model.js";
 export const saveInDb = async (req, res) => {
     try {
         const { prompt, response } = req.body;
-
         if (!prompt || !response) {
             return res.status(400).json({
                 error: "Prompt and response are required",
