@@ -1,5 +1,0 @@
-server/node_modules
-server/.env
-
-client/ai-flow/.env
-client/ai-flow/node_modules
