@@ -1,5 +1,9 @@
-server/node_modules
-server/.env
+# node_modules
+node_modules/
+server/node_modules/
+client/ai-flow/node_modules/
 
+# env files
+.env
+server/.env
 client/ai-flow/.env
-client/ai-flow/node_modules
