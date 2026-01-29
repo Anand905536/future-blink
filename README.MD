@@ -1,3 +1,6 @@
+# Live Link
+https://future-blink-1kisaiyi8-anand905536s-projects.vercel.app
+
 # MERN Stack Application
 
 This is a full-stack MERN application with separate frontend and backend.
@@ -81,3 +84,4 @@ Frontend will run on the port shown in the terminal (usually http://localhost:30
 ## Author
 
 ANAND
+
