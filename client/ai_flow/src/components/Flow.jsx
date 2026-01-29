@@ -87,7 +87,6 @@ const FlowCanvas = () => {
         </div>
       </div>
 
-      {/* CANVAS */}
       <ReactFlow
         nodes={updatedNodes}
         edges={edges}

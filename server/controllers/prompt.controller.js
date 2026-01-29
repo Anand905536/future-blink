@@ -24,3 +24,13 @@ export const saveInDb = async (req, res) => {
         });
     }
 };
+
+export const getHistory = async (req, res) => {
+    try {
+        const history = await PromptQuestion.find().sort({ createdAt: -1 });
+        res.json(history);
+    } catch (err) {
+         console.error("🔥 HISTORY ERROR:", err)
+        res.status(500).json({ error: "Failed to fetch history" });
+    }
+}

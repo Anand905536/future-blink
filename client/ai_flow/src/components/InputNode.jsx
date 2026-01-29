@@ -25,9 +25,9 @@ export default InputNode;
 const node = {
   width: "160px",
   padding: "6px",
-  background: "#020617",
+  // background: "black",
   borderRadius: "8px",
-  boxShadow: "0 4px 10px rgba(0,0,0,0.45)",
+  boxShadow: "0 4px 10px rgba(3, 0, 0, 0.45)",
 };
 
 const heading = {
@@ -39,7 +39,7 @@ const heading = {
 
 const textarea = {
   width: "100%",
-  background: "#0f172a",
+  background: "#000207",
   color: "#ffffff",
   border: "1px solid #334155",
   borderRadius: "5px",

@@ -20,25 +20,25 @@ export default ResultNode;
 
 const node = {
   width: "180px",
-  padding: "6px",
-  background: "#020617",
+  padding: "4px",
+  // background: "radial-gradient(circle at top, #111, #000)",
   borderRadius: "8px",
   boxShadow: "0 4px 10px rgba(0,0,0,0.45)",
 };
 
 const heading = {
   color: "#ff007a",
-  fontSize: "10px",      // 🔥 half size
+  fontSize: "10px",      
   fontWeight: "600",
   marginBottom: "3px",
 };
 
 const output = {
-  background: "#0f172a",
+  background: "#000102",
   color: "#ffffff",
   padding: "5px",
   borderRadius: "5px",
-  fontSize: "9px",       // 🔥 half size
+  fontSize: "9px",      
   minHeight: "28px",
   maxHeight: "70px",
   overflowY: "auto",

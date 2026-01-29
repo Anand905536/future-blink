@@ -12,3 +12,6 @@ export const savePrompt = (prompt, answer) => {
     return api.post('/save', { prompt:prompt, response: answer })
 }
 
+export const getHistory = () => {
+  return api.get("/history");
+};
